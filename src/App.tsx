@@ -22,7 +22,9 @@ const Typewriter = ({ text, delay = 50, onComplete }: { text: string, delay?: nu
   return <span className="font-mono">{currentText}</span>;
 };
 
-export default function App() {
+export default function App() {requestAnimationFrame}
+ [requestAnimationFrame
+ ]
   const [stage, setStage] = useState<'console' | 'reveal'>('console');
   const [consoleFinished, setConsoleFinished] = useState(false);
 
